@@ -1,3 +1,5 @@
+
+
 const express = require('express');
 
 const app = express();
@@ -14,6 +16,14 @@ app.get('/', (req, res) => {
 
 app.get('/health', (req, res) => {
   res.status(200).json({ status: 'UP' });
+});
+
+app.get('/api/info', (req, res) => {
+    res.status(200).json({
+        name: 'Secure Lab App',
+        version: '1.1.0',
+        environment: 'development'
+    });
 });
 
 app.listen(port, '0.0.0.0', () => {
