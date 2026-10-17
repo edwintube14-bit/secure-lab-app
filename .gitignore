@@ -1,4 +1,10 @@
 node_modules/
+<<<<<<< HEAD
 .env
 *.log
 coverage/
+=======
+coverage/
+.env
+*.log
+>>>>>>> e1ab338 (Configure shift left controls)

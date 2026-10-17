@@ -1,6 +1,13 @@
 node_modules
+<<<<<<< HEAD
 .git
 .env
 *.log
 README.md
 evidencias/
+=======
+coverage
+.git
+.husky
+README.md
+>>>>>>> e1ab338 (Configure shift left controls)
